@@ -53,7 +53,7 @@ public class Hansu_1065 {
 						check++;
 					}
 				}
-				if(check == gap.length) {
+				if(check == gap.length) {//모든 요소가 다 같으면
 					count++;
 				}
 			}//outer for 끝

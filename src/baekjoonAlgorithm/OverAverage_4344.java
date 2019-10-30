@@ -1,6 +1,11 @@
 package baekjoonAlgorithm;
 import java.io.*;
 import java.util.Arrays;
+/**
+ * @author Dom_Morello
+ * @Project Algorithm
+ * @Date 2019. 10. 22.
+ */
 public class OverAverage_4344 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

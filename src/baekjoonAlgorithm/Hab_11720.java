@@ -1,6 +1,11 @@
 package baekjoonAlgorithm;
 import java.io.*;
 import java.util.*;
+/**
+ * @author Dom_Morello
+ * @Project Algorithm
+ * @Date 2019. 10. 25.
+ */
 public class Hab_11720 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -19,5 +24,4 @@ public class Hab_11720 {
 		
 		System.out.println(result);
 	}
-
 }
