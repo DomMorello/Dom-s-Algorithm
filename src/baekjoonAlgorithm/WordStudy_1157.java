@@ -32,6 +32,7 @@ public class WordStudy_1157 {
 				}
 			}
 		}
+		
 		//count배열에서 최댓값을 일단 구해보자
 		int max = count[0];	
 		for(int i=0; i < count.length; i++) {
