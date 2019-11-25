@@ -53,7 +53,7 @@ public class AntSequence {
 		}//바깥 else 끝
 		return result;	//previous 개미수열의 전 요소를 받아 그 다음 수열인 result를 반환		
 	}
-
+    
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
