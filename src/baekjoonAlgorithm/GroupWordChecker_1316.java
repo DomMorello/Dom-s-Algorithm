@@ -1,8 +1,6 @@
 package baekjoonAlgorithm;
-
 import java.io.*;
 import java.util.*;
-
 /**
  * @author Dom_Morello
  * @Project Algorithm

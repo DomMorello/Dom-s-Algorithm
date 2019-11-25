@@ -14,7 +14,7 @@ public class IntSum_15596 {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();	//배열의 크기를 입력 받는다
 		int[] a = new int[size];	
-		Test test = new Test();	//Test클래스 메서드 사용 위해 객체 생성
+		Test1 test = new Test1();	//Test클래스 메서드 사용 위해 객체 생성
 		
 		//배열의 요소들을 입력받아 저장
 		for(int i=0; i < size; i++) {
@@ -25,7 +25,7 @@ public class IntSum_15596 {
 	}
 }
 
-class Test{
+class Test1{
 	public long sum(int[] a) {
 
 		long sum = 0;

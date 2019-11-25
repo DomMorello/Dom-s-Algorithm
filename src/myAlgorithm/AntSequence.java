@@ -60,9 +60,14 @@ public class AntSequence {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		int size = Integer.parseInt(br.readLine());//신기한것. 이 부분을 Integer로 파싱을 하지 않고 br.read()로 받으면 무한루프에 빠진다. 버퍼관련해서 문제가 생기는 것 같다. 
 		String start = "1";
-		for(int i=0; i < size; i++) {
-			bw.write(getNextSequence(start)+"\n");
-			start = getNextSequence(start);
+		if(size == 1) {
+			bw.write("1회차\t1\r\n");
+		}else {
+			bw.write("1회차\t1\r\n");
+			for(int i=0; i < size-1; i++) {
+				bw.write((i+2)+"회차\t"+getNextSequence(start)+"\r\n");
+				start = getNextSequence(start);
+			}
 		}
 		bw.flush();
 		br.close();

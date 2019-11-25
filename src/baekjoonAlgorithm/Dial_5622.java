@@ -26,7 +26,7 @@ public class Dial_5622 {
 		};
 		int num = 0;
 		for(int i=0; i < input.length; i++) {	//char배열을 하나씩 검사
-			for(int j=0; j < alphabet.length; j++) {	
+			for(int j=0; j < alphabet.length; j++) {	//2차원 배열 검사 반복문 시작
 				for(int k=0; k < alphabet[j].length; k++) {	//첫 행부터 검사
 					if(input[i] == alphabet[j][k]){
 						num += (j+3);	//alphabet[j][k]에서 j는 가로 즉 그 문자가 
