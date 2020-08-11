@@ -43,6 +43,7 @@ def solution(k, n):
             j += 1
         i += 1
     print(ret[i - 1][j - 2])
+    
 t = int(input())
 
 ks = []
