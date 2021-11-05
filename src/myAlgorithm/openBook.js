@@ -5,6 +5,12 @@ const handleException = (pobi, crong) => {
 	if (pobi[1] - pobi[0] !== 1 || crong[1] - crong[0] !== 1) {
 		return false;
 	}
+	if (!(pobi[0] >= 1 && pobi[0] <= 399) || !(pobi[1] >= 2 && pobi[1] <= 400)) {
+		return false;
+	}
+	if (pobi[0] % 2 !== 1 || pobi[1] % 2 !== 0) {
+		return false;
+	}
 	return true;
 };
 
@@ -48,7 +54,7 @@ const solution = (pobi, crong) => {
 
 	const pobiPoint = Math.max(...pobiArr);
 	const crongPoint = Math.max(...crongArr);
-	
+
 	if (pobiPoint > crongPoint) return 1;
 	if (pobiPoint < crongPoint) return 2;
 	if (pobiPoint === crongPoint) return 0;
