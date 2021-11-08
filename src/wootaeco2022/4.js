@@ -53,7 +53,7 @@ function solution(s) {
       log.push(sum);
       sum = 1;
       if (index === seqArray.length - 1) {
-        log.push(1);
+        log.push(1); 
       }
     }
   });
